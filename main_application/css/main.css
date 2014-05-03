@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "segoe ui light";
+	font-size: 20px;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 3em;
+	color: rgba(33, 33, 34, 0.54);
+}
+
+textarea,
+input{
+	font-family: inherit;
+	padding: 20px 0;
+	width: 100%;
+	border: 0;
+	outline: 0;
+	font-size: 2.8
+}
+
+textarea{
+	resize: vertical;
+}
+
+h1,
+.siv-user-wrapper,
+.siv-messages,
+.siv-input-wrapper,
+.siv-chat-info{
+	border-bottom: 1px dashed #DDD;
+}
+
+.siv-chat-info{
+	width: 100%;
+	color: #3ADBC2;
+	font-size: 16px;
+	padding-bottom: 4px;
+}
+
+.siv-status{
+	color: #07C6EB;
+}
+
+.siv-user,
+.siv-input{
+	font-weight: 100;
+	font-size: 1.1em;
+}
+
+.siv-msg-name:after{
+ content: " : "
+}
+
+.siv-msg-name{
+	padding-left: 5px;
+	color: rgb(64, 144, 151);
+}
+
+.siv-wrapper{
+	min-width: 600px;
+	max-width: 600px;
+	//border: 1px solid #DDD;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+	padding:10px;
+
+}
+
+.siv-messages{
+	overflow-y: auto;
+	min-height: 200px;
+	max-height: 300px;
+	padding: 5px 0;
+}
+
+.siv-msg{
+	margin-bottom: 10px;
+	border-left: 3px solid #ddd;
+}
+.siv-status{
+	font-size: 0.74em;
+	padding: 10px;
+}
